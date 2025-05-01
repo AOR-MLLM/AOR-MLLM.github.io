@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.7.45">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Presentation Template</title>
+  <style>
+                body {
+                  font-family:
+                    Google Sans,
+                    sans-serif;
+                  margin: 0;
+                  line-height: 1.6;
+                }
+
+                .header {
+                  background-color: #ffffff;
+                  padding: 40px 20px;
+                  text-align: center;
+                  max-width: 60%;
+                  margin: 0 auto;
+                }
+
+                .white-bg {
+                  background-color: white;
+                  padding: 40px 20px;
+                }
+
+                .gray-bg {
+                  background-color: #f5f5f5;
+                  padding: 40px 20px;
+                }
+
+                .container {
+                  <!-- max-width: 1200px; -->
+                  margin: 0 auto;
+                }
+
+                .title {
+                  font-size: 2.5em;
+                  margin-bottom: 20px;
+                  color: #333;
+                }
+
+                .authors {
+                  font-size: 1.3em;
+                  color: #222;
+                  margin-bottom: 10px;
+                  font-family:
+                    Noto Sans,
+                    sans-serif;
+                }
+
+                .affiliation {
+                  font-size: 1.1em;
+                  color: #111;
+                  margin-bottom: 30px;
+                }
+
+                .button-container {
+                  margin-top: 20px;
+                }
+
+                .section-title {
+                  font-size: 1.8em;
+                  color: #444;
+                  margin-bottom: 20px;
+                  text-align: center;
+                }
+
+                .content {
+                  font-size: 1.1em;
+                  color: #555;
+                  max-width: 800px;
+                  margin: 0 auto;
+                }
+                .authors sup {
+                  margin-right: 1.5em;
+                }
+                .affiliation sup {
+                  margin-left: 1.5em;
+                }
+                .button {
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 8px 16px;
+                  margin: 5px;
+                  border-radius: 4px;
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: 14px;
+                  transition: all 0.3s ease;
+                  border-radius: 30px;
+                }
+
+                .paper-button {
+                  background-color: #363636;
+                  color: white;
+                  border: 1px solid #363636;
+                }
+
+                .code-button {
+                  background-color: #363636;
+                  color: white;
+                  border: 1px solid #363636;
+                }
+
+                .button:hover {
+                  opacity: 0.8;
+                  transform: translateY(-1px);
+                }
+
+                .icon-arxiv,
+                .icon-github {
+                  display: inline-block;
+                  width: 16px;
+                  height: 16px;
+                  margin-right: 6px;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                }
+
+            .image-container {
+              text-align: center;
+              margin: 30px 0;
+            }
+
+            .image-container img {
+              max-width: 90%;
+              height: auto;
+              display: block;
+              margin: 0 auto;
+            }
+
+      .image-caption {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 10px;
+        font-style: italic;
+        max-width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4;
+      }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">AOR: Anatomical Ontology-Guided Reasoning for Medical
+      Large Multimodal Mode</h1>
+      <div class="authors">
+        <span class="author-name">Qingqiu Li<sup>1</sup></span> <span class=
+        "author-name">Zihang Cui<sup>2</sup></span> <span class=
+        "author-name">Seongsu Bae<sup>3</sup></span> <span class=
+        "author-name">Jilan Xu<sup>1</sup></span> <span class=
+        "author-name">Runtian Yuan<sup>1</sup></span><br>
+        <span class="author-name">Yuejie Zhang<sup>1</sup></span> <span class=
+        "author-name">Rui Feng<sup>1</sup></span> <span class=
+        "author-name">Quanli Shen<sup>4</sup></span> <span class=
+        "author-name">Xiaobo Zhang<sup>4</sup></span><br>
+        <span class="author-name">Junjun He<sup>5</sup></span> <span class=
+        "author-name">Shujun Wang<sup>6</sup></span>
+      </div>
+      <div class="affiliation">
+        <span class="affil-item"><sup>1</sup>Fudan University</span>
+        <span class="affil-item"><sup>2</sup>Xidian University</span>
+        <span class="affil-item"><sup>3</sup>Korea Advanced Institute of
+        Science and Technology</span><br>
+        <span class="affil-item"><sup>4</sup>Children's Hospital of Fudan
+        University</span> <span class="affil-item"><sup>5</sup>Shanghai AI
+        Laboratory</span> <span class="affil-item"><sup>6</sup>Hong Kong
+        Polytechnic University</span>
+      </div>
+      <div class="button-container">
+        <a href="#" class="button paper-button">arXiv</a> <a href="#" class=
+        "button code-button">GitHub</a>
+      </div>
+    </div>
+    <div class="container">
+      <b class="content" style="color: #000">📝 TL;DR: By empowering Medical
+      LMMs with anatomy-centric reasoning capabilities, we offer a new paradigm
+      for interactive and explainable LMMs in medical imaging analysis.</b>
+    </div>
+    <div class="image-container">
+      <video autoplay="" loop="" muted="" style=
+      "max-width: 110%; height: auto; display: block; margin: 0 auto"><source src="./assets/video.mp4"
+      type="video/mp4"></video>
+    </div>
+  </header>
+  <section class="gray-bg">
+    <div class="container">
+      <h2 class="section-title">Abstract</h2>
+      <p class="content">Chest X-rays (CXRs) are the most frequently performed
+      imaging examinations in clinical settings. Recent advancements in Large
+      Multimodal Models (LMMs) have enabled automated CXR interpretation,
+      enhancing diagnostic accuracy and efficiency. However, despite their
+      strong visual understanding, current Medical LMMs (MLMMs) still face two
+      major challenges: (1) Insufficient regionlevel understanding and
+      interaction, and (2) Limited accuracy and interpretability due to
+      singlestep reasoning. In this paper, we empower MLMMs with anatomycentric
+      reasoning capabilities to enhance their interactivity and explainability.
+      Specifically, we first propose an Anatomical Ontology-Guided Reasoning
+      (AOR) framework, which centers on cross-modal region-level information to
+      facilitate multi-step reasoning. Next, under the guidance of expert
+      physicians, we develop AOR-Instruction, a large instruction dataset for
+      MLMMs training. Our experiments demonstrate AOR's superior performance in
+      both VQA and report generation tasks.</p>
+      <div class="image-container">
+        <img src="./assets/overview.png" style="max-width: 90%; height: auto">
+        <div class="image-caption">
+          (a) our AOR framework, which flexibly accommodates both textual and
+          optional visual prompts as input, centered on region-level<br>
+          information to enable multimodal multi-step reasoning and (b)
+          Three-stage training procedure for AOR
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="white-bg">
+    <div class="container">
+      <h2 class="section-title">AOR-Instruction dataset</h2>
+      <div class="image-container">
+        <img src="./assets/dataset.png" style="max-width: 90%; height: auto">
+        <div class="image-caption">
+          (a) The construction of AOR-VQA: Anatomical ontologies design → CoT
+          construction → Sample expansion and (b) The construction of AOR-RG:
+          Strict alignment between anatomical region and report sentence.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gray-bg">
+    <div class="container">
+      <h2 class="section-title">🖼️ Results</h2>
+      <div class="image-container">
+        <img src="./assets/result.png" style="max-width: 90%; height: auto"> 
+        <!-- <div class="image-caption"> -->
+         
+        <!--   (a) The construction of AOR-VQA: Anatomical ontologies design → CoT -->
+         
+        <!--   construction → Sample expansion and (b) The construction of AOR-RG: -->
+         
+        <!--   Strict alignment between anatomical region and report sentence. -->
+         <!-- </div> -->
+      </div>
+    </div>
+  </section>
+</body>
+</html>
