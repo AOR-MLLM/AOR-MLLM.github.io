@@ -97,6 +97,9 @@
                       href=""
                       class="external-link button is-normal is-rounded is-dark"
                     >
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
                       <span>Paper</span></a
                     ></span
                   >
@@ -106,6 +109,9 @@
                       href="https://github.com/Liqq1/AOR"
                       class="external-link button is-normal is-rounded is-dark"
                     >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
                       <span>Code</span></a
                     ></span
                   >
@@ -135,18 +141,19 @@
               and explainable LMMs in medical imaging analysis.
             </h3>
           </div>
+          <br />
           <video
             autoplay=""
             loop=""
             muted=""
             style="
-              max-width: 110%;
+              max-width: 100%;
               height: auto;
               display: block;
               margin: 0 auto;
             "
           >
-            <source src="./assets/video.mp4" type="video/mp4" />
+            <source src="./static/images/video.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -185,26 +192,26 @@
       <div class="container is-max-desktop">
         <h2 class="title is-3 has-text-centered">💡AOR framework</h2>
         <div class="hero-body">
-          <img src="static/images/overview.jpg" style="width: 200%" alt="" />
           <div class="content has-text-justified">
             (a) our AOR framework, which flexibly accommodates both textual and
             optional visual prompts as input, centered on region-level
             information to enable multimodal multi-step reasoning and (b)
             Three-stage training procedure for AOR
           </div>
+          <img src="static/images/overview.jpg" style="width: 200%" alt="" />
         </div>
       </div>
     </section>
     <section class="section">
       <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">📑AOR-Instruction dataset</h2>
+        <h2 class="title is-3 has-text-centered">📑 AOR-Instruction dataset</h2>
         <div class="hero-body">
-          <img src="static/images/dataset.png" style="width: 200%" alt="" />
           <div class="content has-text-justified">
             (a) The construction of AOR-VQA: Anatomical ontologies design → CoT
             construction → Sample expansion and (b) The construction of AOR-RG:
             Strict alignment between anatomical region and report sentence.
           </div>
+          <img src="static/images/dataset.jpg" style="width: 200%" alt="" />
         </div>
       </div>
     </section>
@@ -212,7 +219,15 @@
       <div class="container is-max-desktop">
         <h2 class="title is-3 has-text-centered">🖼️ Results</h2>
         <div class="hero-body">
-          <img src="static/images/result.png" style="width: 200%" alt="" />
+          <div class="content has-text-justified">
+            For the VQA task, AOR is capable of generating correct and logically
+            reasoned answers. For the report generation task, due to the
+            incorporation of fine-grained anatomical regions, AOR demonstrates a
+            stronger grasp of details, such as ET tube, NG tube, and basal
+            atelectasis. Moreover, it can generate corresponding report
+            sentences for specified regions.
+          </div>
+          <img src="static/images/result.jpg" style="width: 200%" alt="" />
         </div>
       </div>
     </section>
